@@ -6,3 +6,16 @@ html {
 section {
   background-image: linear-gradient(to top, #ff5e3a, #ff9500);
 }
+
+li:first-child,
+li:nth-child(2) {
+  border-right: none;
+  border-bottom: 2px solid rgba(255, 255, 255, 1);
+}
+
+.btn-ghost {
+  border: 2px solid #fff;
+  border-radius: 6px;
+  color: #fff;
+  padding: .5em;
+}
