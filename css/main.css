@@ -19,3 +19,8 @@ li:nth-child(2) {
   color: #fff;
   padding: .5em;
 }
+
+.btn-ghost:hover {
+  background-color: #fff;
+  border-color: #fff;
+}
